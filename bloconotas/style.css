@@ -19,10 +19,10 @@
   .card {
     width: 340px;
     height: 620px;
-    background-color: #18ab56;
+    background-color: #1f18ab;
     border: 10px solid #1a1a1a;
     border-radius: 24px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 25px #1f18ab;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -30,14 +30,14 @@
   
   /* Cabeçalho Fixo */
   .header {
-    background-color: #18ab56;
+    background-color: #1f18ab;
     padding: 20px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     flex-shrink: 0;
-    border-bottom: 4px solid #18ab56;
+    border-bottom: 4px solid #1f18ab;
   }
   
   .header h1 {
@@ -54,7 +54,7 @@
     top: 16px;
     width: 20px;
     height: 32px;
-    background-color: #18ab56;
+    background-color: #1f18ab;
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -63,12 +63,12 @@
   }
   
   .icone-topo:hover {
-    background-color: #18ab56;
+    background-color: #1f18ab;
   }
   
   .icone-topo:active {
     transform: scale(0.92);
-    background-color: #57da8e;
+    background-color: #00bfffeb;
   }
   
   /* Tabela de Matérias com Rolagem Interna */
@@ -76,7 +76,7 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
-    background-color: #18ab56;
+    background-color: #1f18ab;
     overflow-y: auto;
     flex-grow: 1;
     padding-bottom: 6px;
@@ -87,7 +87,7 @@
     width: 6px;
   }
   .tabela::-webkit-scrollbar-thumb {
-    background-color: #0f753a;
+    background-color: #1f18ab;
     border-radius: 4px;
   }
   
@@ -101,7 +101,7 @@
   .materia {
     width: 32%;
     min-height: 80px;
-    background-color: #a4e3a2;
+    background-color: #00bfffeb;
     color: #ffffff;
     font-size: 1.2rem;
     font-weight: 900;
@@ -116,9 +116,12 @@
   .conteudo {
     width: 68%;
     min-height: 80px;
-    background-color: #a4e3a2;
+    background-color: #00bfffeb;
     color: #ffffff;
     font-size: 1rem;
+      font-family: "Libertinus Math", system-ui;
+      font-weight: 300;
+      font-style: normal;  
     font-weight: 700;
     padding: 15px 12px;
     display: flex;
@@ -132,5 +135,5 @@
   }
   
   .conteudo:focus {
-    background-color: #b5ebb3;
+    background-color: #00bfffeb;
   }
