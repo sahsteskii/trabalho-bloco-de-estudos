@@ -1,112 +1,112 @@
 /* Configurações Gerais */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  body {
-    background-color: #0056bf; /* Azul de fundo principal */
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-  }
-  
-  /* Cabeçalho */
-  .navbar {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding: 15px 20px;
-    background-color: #0056bf;
-  }
-  
-  .menu-btn {
-    position: absolute;
-    left: 20px;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .title {
-    color: white;
-    font-family: 'Georgia', serif;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  /* Contentor dos Cartões (Grid de 2 Colunas) */
-  .cards-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    padding: 10px 15px;
-    max-width: 500px;
-    width: 100%;
-  }
-  
-  /* Cartão Individual */
-  .card {
-    background-color: #0073e6; /* Azul do cartão */
-    border-radius: 12px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-header {
-    text-align: right;
-    color: white;
-    font-size: 11px;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  /* Tabela de Matérias */
-  .card-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .card-table td {
-    border-bottom: 1px solid #3399ff; /* Linha horizontal branca/azul clara */
-    padding: 4px 2px;
-    color: white;
-    font-size: 13px;
-    font-weight: bold;
-    vertical-align: middle;
-  }
-  
-  .card-table tr:last-child td {
-    border-bottom: none; /* Remove a linha do último item */
-  }
-  
-  .subject-name {
-    width: 35%;
-    border-right: 1.5px solid white; /* Linha vertical branca */
-    padding-right: 4px;
-  }
-  
-  /* Campo de texto de anotação editável */
-  .note-input {
-    width: 100%;
-    background: transparent;
-    border: none;
-    color: white;
-    outline: none;
-    font-size: 12px;
-    padding-left: 6px;
-  }
-  
-  .note-input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #0056bf; /* Azul de fundo principal */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+/* Cabeçalho */
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 15px 20px;
+  background-color: #0056bf;
+}
+
+.menu-btn {
+  position: absolute;
+  left: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.title {
+  color: white;
+  font-family: 'Georgia', serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Contentor dos Cartões (Grid de 2 Colunas) */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 10px 15px;
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Cartão Individual */
+.card {
+  background-color: #0073e6; /* Azul do cartão */
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  text-align: right;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Tabela de Matérias */
+.card-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card-table td {
+  border-bottom: 1px solid #3399ff; /* Linha horizontal branca/azul clara */
+  padding: 4px 2px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.card-table tr:last-child td {
+  border-bottom: none; /* Remove a linha do último item */
+}
+
+.subject-name {
+  width: 35%;
+  border-right: 1.5px solid white; /* Linha vertical branca */
+  padding-right: 4px;
+}
+
+/* Campo de texto de anotação editável */
+.note-input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 12px;
+  padding-left: 6px;
+}
+
+.note-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}

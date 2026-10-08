@@ -17,7 +17,7 @@ form.addEventListener('submit', function(event) {
         mensagem.style.color = "green";
         mensagem.textContent = "Acesso permitido! Redirecionando...";
         
-        window.location.href = "../bloconotas/index.html";
+        window.location.href = "../calendario/index.html";
         
     } else {
         mensagem.style.color = "red";
